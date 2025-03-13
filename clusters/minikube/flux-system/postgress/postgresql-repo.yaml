@@ -2,7 +2,7 @@ apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
   name: postgresql-repo
-  namespace: flux-system
+  namespace: postgress  # Ensure this matches HelmRelease namespace
 spec:
   interval: 10m
   url: https://charts.bitnami.com/bitnami
