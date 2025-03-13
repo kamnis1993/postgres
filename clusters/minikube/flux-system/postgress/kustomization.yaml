@@ -1,0 +1,5 @@
+resources:
+- namespace.yaml
+- postgresql-repo.yaml
+- postgresql-helmrelease.yaml
+
